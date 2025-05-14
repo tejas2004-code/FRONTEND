@@ -1,9 +1,9 @@
 // API Endpoints
 export const API_ENDPOINTS = {
-    GET_USER_DETAILS: process.env.REACT_APP_GET_USER_DETAILS || 'http://localhost:5000/api/auth/getuser',
-    UPDATE_USER_DETAILS: process.env.REACT_APP_UPDATE_USER_DETAILS || 'http://localhost:5000/api/auth/updateuser',
-    RESET_PASSWORD: process.env.REACT_APP_RESET_PASSWORD || 'http://localhost:5000/api/auth/reset-password',
-    DELETE_USER_DETAILS: process.env.REACT_APP_DELETE_USER_DETAILS || 'http://localhost:5000/api/auth/delete'
+    GET_USER_DETAILS: process.env.REACT_APP_GET_USER_DETAILS || 'https://your-backend-url.vercel.app/api/auth/getuser',
+    UPDATE_USER_DETAILS: process.env.REACT_APP_UPDATE_USER_DETAILS || 'https://your-backend-url.vercel.app/api/auth/updateuser',
+    RESET_PASSWORD: process.env.REACT_APP_RESET_PASSWORD || 'https://your-backend-url.vercel.app/api/auth/reset-password',
+    DELETE_USER_DETAILS: process.env.REACT_APP_DELETE_USER_DETAILS || 'https://your-backend-url.vercel.app/api/auth/delete'
 };
 
 // Axios default config
